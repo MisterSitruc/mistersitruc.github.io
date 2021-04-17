@@ -1,5 +1,13 @@
 .heading {
     color: #5A8298;
-
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
 } 
+
+main {
+    width: 1000px;
+    margin: 20px; 
+    padding: 10px;
+}
 
