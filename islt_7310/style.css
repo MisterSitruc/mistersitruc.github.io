@@ -6,8 +6,65 @@
 } 
 
 main {
+    display: grid;
     width: 1000px;
     margin: 20px; 
     padding: 10px;
 }
+
+footer {
+    text-align: right;
+}
+
+.navul {
+    grid-column: col / span 4;
+    grid-row: row ;
+  }
+
+  .aboutme {
+    grid-column: col 2 / span 1 ;
+    grid-row: row 2 ;
+  }
+
+ .amheading {
+    grid-column: col  / span 1 ;
+    grid-row: row 2 ;
+  }
+
+  .credentials {
+    grid-column: col / span 1 ;
+    grid-row: row 5 ;
+  }
+
+  .eo {
+    grid-column: col / span 1 ;
+    grid-row: row 4 ;
+  }
+
+ .blockquote {
+    grid-column: col 2 / span 1 ;
+    grid-row: row 3 ;
+  }
+
+@media (max-width: 959px) {
+     p {font-size: 1rem;}
+    ul {font-size: 1rem;}
+}
+
+@media (max-width: 767px) {
+    p {font-size: .75rem;}
+    ul {font-size: .75rem;}
+    
+}
+
+@media (max-width: 479px) { 
+    p {font-size: .5rem;}
+    ul {font-size: .5rem;}
+    
+}
+
+
+    
+
+
 

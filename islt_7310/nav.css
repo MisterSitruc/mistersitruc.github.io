@@ -1,17 +1,18 @@
 .navul {
     list-style: none;
-    text-align: right;
-    padding-bottom: 50px;
-    margin-right: 0px;
-
+    text-align: left;
+    padding-bottom: 0px;
+    display: flex; 
+    flex-direction: row;
+    float: right;
 
 }
 
 .navul > li {
-    width: 150px;  
+    margin-right: 50px;
+    margin-bottom: 0px;
     position: relative;
-    margin-bottom: 2px;
-    float: left;
+    
 }
 
 .navul > li > a {
@@ -24,14 +25,19 @@
 }
 
 .navul > li > ul {
+    margin-top: 0px;
+    margin-left: -40px;
+    padding-top: 5px;
     list-style: none;
-    margin-top: 0;
-    display: none;  
+    display: none;
+    position: absolute;
+    
 }
 
 .navul > li > ul > li > a {
     text-decoration: none;
     color: black;
+    text-align: left;
 }
 
 .navul > li > ul > li > a:hover {
