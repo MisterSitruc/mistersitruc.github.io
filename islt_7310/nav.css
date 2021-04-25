@@ -5,6 +5,7 @@
     display: flex; 
     flex-direction: row;
     float: right;
+    padding: 20px;
 
 }
 
@@ -21,13 +22,12 @@
 }
 
 .navul > li > a:hover {
-    color: #FFCA89
+    color: #FFCA89;
 }
 
 .navul > li > ul {
     margin-top: 0px;
-    margin-left: -40px;
-    padding-top: 5px;
+    padding: 5px;
     list-style: none;
     display: none;
     position: absolute;
@@ -41,11 +41,48 @@
 }
 
 .navul > li > ul > li > a:hover {
-    color: #FFCA89
+    color: #FFCA89;
 }
 
 .navul > li:hover > ul {
     display: block;
+    padding: 5px;
+}
+
+label {
+    margin: 0 40px 0 0; 
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px; 
+    float: right;
+}
+
+#toggle {
+    display: none;
 }
     
+@media only screen and (max-width: 767px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    
+    .navul {
+        text-align: right;
+        width: 100%;
+        display: none;
+    }
+    
+    .navul a {
+        display: block;
+        margin: 0;
+        clear: right;
+        
+    }
+    
+    #toggle:checked + .navul {
+        display: block;
+    }
+}
    

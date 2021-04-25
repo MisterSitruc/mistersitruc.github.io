@@ -1,19 +1,24 @@
+body {
+    width: 95%;
+    padding: auto;
+    margin: auto;
+}
+
 .heading {
     color: #5A8298;
     text-align: center;
-    margin: 20px;
-    padding: 10px;
+    padding: 15px 1.5625%;
+    width: 96.875%;
+    display: grid;
 } 
 
-main {
-    display: grid;
-    width: 1000px;
-    margin: 20px; 
-    padding: 10px;
+main { 
+    display: grid; 
 }
 
 footer {
     text-align: right;
+    padding-bottom: 20px;
 }
 
 .navul {
@@ -21,19 +26,34 @@ footer {
     grid-row: row ;
   }
 
+/*Index Grid*/
+
+.aboutsite {
+    grid-column: col;
+    grid-row: 1; 
+}
+
+.purpose {
+    
+    grid-column: col; 
+    grid-row: 4; 
+}
+
+/*About Grid*/
+
   .aboutme {
     grid-column: col 2 / span 1 ;
     grid-row: row 2 ;
   }
 
  .amheading {
-    grid-column: col  / span 1 ;
-    grid-row: row 2 ;
+    grid-column: col 2 / span 1 ;
+    grid-row: row ;
   }
 
   .credentials {
     grid-column: col / span 1 ;
-    grid-row: row 5 ;
+    grid-row: row 5;
   }
 
   .eo {
@@ -46,22 +66,53 @@ footer {
     grid-row: row 3 ;
   }
 
-@media (max-width: 959px) {
-     p {font-size: 1rem;}
-    ul {font-size: 1rem;}
+/*Reflection Grid*/
+
+.workscited {
+    grid-column: col;
+    grid-row: row 1;
+    text-align: center;
 }
 
-@media (max-width: 767px) {
-    p {font-size: .75rem;}
-    ul {font-size: .75rem;}
+.resources {
+    grid-column: col;
+    grid-row: row 2;
+}
+
+@media only screen and (max-width: 959px) {
+     p {font-size: 1em;}
+    ul {font-size: 1em;}
+    blockquote {font-size: 1em;}
+    h1 {font-size: 2em;}
+    h2 {font-size: 1.75em}
+    h3 {font-size: 1.5em}
+    
     
 }
 
-@media (max-width: 479px) { 
-    p {font-size: .5rem;}
-    ul {font-size: .5rem;}
+@media only screen and (max-width: 767px) {
+    p {font-size: .75em;}
+    ul {font-size: .75em;}
+    blockquote {font-size: .75em;}
+    h1 {font-size: 1.75em;}
+    h2 {font-size: 1.5em;}
+    h3 {font-size: 1.25em}
+    
     
 }
+
+@media only screen and (max-width: 500px) { 
+    p {font-size: .5em;}
+    ul {font-size: .5em;}
+    blockquote {font-size: .5em;}
+    h1 {font-size: 1.5em;}
+    h2 {font-size: 1.25em;}
+    h3 {font-size: 1em}
+    
+    
+}
+
+
 
 
     
