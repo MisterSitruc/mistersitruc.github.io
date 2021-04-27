@@ -1,9 +1,15 @@
+@font-face {
+    font-family: BioRhymeBold; 
+    src: url(BioRhyme-ExtraBold.tff)
+}
+
 body {
     width: 95%;
     margin: auto;
 }
 
 .heading {
+    font-family: BioRhymeBold;
     color: #5A8298;
     text-align: center;
     padding: 15px 1.5625%;
