@@ -16,8 +16,10 @@
         border: none;
         text-align: center;
     }
-    .navul
-    main
+    .navul {
+        display: none;
+    }
+    
     footer {
         display: none;
     }
