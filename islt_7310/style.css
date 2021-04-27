@@ -9,7 +9,7 @@ body {
 }
 
 .heading {
-    font-family: "BioRhymeBold";
+    font: "BioRhymeBold";
     color: #5A8298;
     text-align: center;
     padding: 15px 1.5625%;
