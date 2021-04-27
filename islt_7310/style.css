@@ -3,6 +3,35 @@
     src: url("BioRhyme-ExtraBold.tff");
 }
 
+@media print {
+    * {
+        background: transparent !important; 
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important; 
+    }
+    
+    .heading {
+        margin-bottom: 0;
+        border: none;
+        text-align: center;
+    }
+    .navul
+    main
+    footer {
+        display: none;
+    }
+    
+    @page {
+        margin: .5cm;
+    }
+    
+    p, ul {
+        font-size: 11pt;
+    }
+    
+}
+
 body {
     width: 95%;
     margin: auto;
