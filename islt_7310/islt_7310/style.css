@@ -1,0 +1,155 @@
+@font-face {
+    font-family: BioRhymeBold; 
+    src: url("BioRhymeExtraBold.ttf");
+}
+
+@media print {
+    * {
+        background: transparent !important; 
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important; 
+    }
+    
+    .heading {
+        margin-bottom: 0;
+        border: none;
+        text-align: center;
+    }
+   
+    nav {
+        display: none;
+    }
+    
+    @page {
+        margin: 1in;
+    }
+    
+    p, ul {
+        font-size: 9pt;
+    }
+    
+    
+}
+
+body {
+    width: 95%;
+    margin: auto;
+}
+
+.heading {
+    font-family: BioRhymeBold; 
+    color: #5A8298;
+    text-align: center;
+    padding: 15px 1.5625%;
+    width: 96.875%;
+    display: grid;
+} 
+
+main { 
+    display: grid; 
+}
+
+footer {
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.navul {
+    grid-column: col / span 4;
+    grid-row: row ;
+  }
+
+/*Index Grid*/
+
+.aboutsite {
+    grid-column: col;
+    grid-row: 1; 
+}
+
+.purpose {
+    
+    grid-column: col; 
+    grid-row: 4; 
+}
+
+/*About Grid*/
+
+  .aboutme {
+    grid-column: col 2 / span 1 ;
+    grid-row: row 2 ;
+  }
+
+ .amheading {
+    grid-column: col 2 / span 1 ;
+    grid-row: row ;
+  }
+
+  .credentials {
+    grid-column: col / span 1 ;
+    grid-row: row 5;
+  }
+
+  .eo {
+    grid-column: col / span 1 ;
+    grid-row: row 4 ;
+  }
+
+ .blockquote {
+    grid-column: col 2 / span 1 ;
+    grid-row: row 3 ;
+  }
+
+/*Reflection Grid*/
+
+.workscited {
+    grid-column: col;
+    grid-row: row 1;
+    text-align: center;
+}
+
+.resources {
+    grid-column: col;
+    grid-row: row 2;
+}
+
+@media only screen and (max-width: 959px) {
+     p {font-size: 1em;}
+    ul {font-size: 1em;}
+    blockquote {font-size: 1em;}
+    h1 {font-size: 2em;}
+    h2 {font-size: 1.75em}
+    h3 {font-size: 1.5em}
+    
+    
+}
+
+@media only screen and (max-width: 767px) {
+    p {font-size: .75em;}
+    ul {font-size: .75em;}
+    blockquote {font-size: .75em;}
+    h1 {font-size: 1.75em;}
+    h2 {font-size: 1.5em;}
+    h3 {font-size: 1.25em}
+    
+    
+}
+
+@media only screen and (max-width: 500px) { 
+    p {font-size: .5em;}
+    ul {font-size: .5em;}
+    blockquote {font-size: .5em;}
+    h1 {font-size: 1.5em;}
+    h2 {font-size: 1.25em;}
+    h3 {font-size: 1em}
+    
+    
+}
+
+
+
+
+    
+
+
+
