@@ -21,10 +21,6 @@
         display: none;
     }
     
-    footer {
-        display: none;
-    }
-    
     @page {
         margin: .5cm;
     }
