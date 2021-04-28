@@ -8,6 +8,11 @@
     src: url("SpaceMonoRegular.ttf");
 }
 
+@font-face {
+    font-family: BioRhymeLight;
+    src: url("BioRhymeLight.ttf")
+}
+
 @media print {
     * {
         background: transparent !important; 
@@ -55,6 +60,10 @@ p, ul {
     display: grid;
 } 
 
+.subheading {
+    font-family: BioRhymeLight;
+}
+
 main { 
     display: grid; 
 }
@@ -80,6 +89,7 @@ footer {
 .aboutsite {
     grid-column: col;
     grid-row: 1; 
+    font-family: BioRhymeLight
 }
 
 .purpose {
@@ -98,6 +108,7 @@ footer {
  .amheading {
     grid-column: col 2 / span 1 ;
     grid-row: row ;
+    font-family: BioRhymeLight;
   }
 
   .credentials {
