@@ -22,12 +22,13 @@
     }
     
     @page {
-        margin: .5cm;
+        margin: 1in;
     }
     
     p, ul {
         font-size: 11pt;
     }
+    
     
 }
 
