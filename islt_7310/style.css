@@ -52,6 +52,7 @@ main {
 
 footer {
     background-image: url(/islt_7310/images/leaves.jpg); 
+    background-size: contain;
     text-align: right;
     padding-bottom: 20px;
     
