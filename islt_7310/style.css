@@ -60,10 +60,6 @@ p, ul {
     display: grid;
 } 
 
-.subheading {
-    font-family: BioRhymeLight;
-}
-
 main { 
     display: grid; 
 }
@@ -89,7 +85,7 @@ footer {
 .aboutsite {
     grid-column: col;
     grid-row: 1; 
-    font-family: BioRhymeLight
+    font-family: BioRhymeLight;
 }
 
 .purpose {
