@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: BioRhymeLight;
-    src: url("BioRhymeLight.ttf")
+    src: url("BioRhymeLight.ttf");
 }
 
 @media print {
@@ -119,6 +119,7 @@ footer {
   .eo {
     grid-column: col / span 1 ;
     grid-row: row 4 ;
+    font-family: BioRhymeLight;
   }
 
  .blockquote {
@@ -132,6 +133,7 @@ footer {
     grid-column: col;
     grid-row: row 1;
     text-align: center;
+    font-family: BioRhymeLight;
 }
 
 .resources {
