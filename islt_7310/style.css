@@ -3,6 +3,11 @@
     src: url("BioRhymeExtraBold.ttf");
 }
 
+@font-face {
+    font-family: SpaceMono;
+    src: url("SpaceMonoRegular.ttf");
+}
+
 @media print {
     * {
         background: transparent !important; 
@@ -37,6 +42,10 @@ body {
     margin: auto;
 }
 
+p, ul {
+    font-family: SpaceMono;
+}
+
 .heading {
     font-family: BioRhymeBold; 
     color: #5A8298;
@@ -54,6 +63,7 @@ footer {
     background-image: url(/islt_7310/images/keyboard.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: SpaceMono;
     text-align: right;
     padding-bottom: 20px;
     
@@ -62,6 +72,7 @@ footer {
 .navul {
     grid-column: col / span 4;
     grid-row: row ;
+    font-family: SpaceMono;
   }
 
 /*Index Grid*/
