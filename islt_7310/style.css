@@ -47,7 +47,7 @@ body {
     margin: auto;
 }
 
-p, ul {
+p, ul, blockquote {
     font-family: SpaceMono;
 }
 
