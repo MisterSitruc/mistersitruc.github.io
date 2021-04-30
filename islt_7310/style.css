@@ -123,6 +123,7 @@ footer {
 .video {
     grid-column: col 2 / span 1;
     grid-row: row 5;
+    text-align: center;
 }
 
   .eo {
