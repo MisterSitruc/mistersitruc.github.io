@@ -105,9 +105,10 @@ footer {
 /*About Grid*/
 
     .aboutheadshot {
-        margin: 75px;
+        margin-right: 50px;
+        margin-left: 50px; 
         padding: 50x;
-        max-width: 50%;
+        max-width: 65%;
         height: auto;
         grid-column: col; 
         grid-row: row 2;
