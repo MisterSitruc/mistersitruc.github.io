@@ -105,7 +105,7 @@ footer {
 /*About Grid*/
 
     .aboutheadshot {
-        margin: 100px;
+        margin: 75px;
         padding: 50x;
         max-width: 50%;
         height: auto;
@@ -132,7 +132,7 @@ footer {
 .video {
     grid-column: col 2;
     grid-row: row 5;
-    max-width: 80%; 
+    max-width: 75%; 
     height: auto;
     margin: 50px;
     padding: 50px;
