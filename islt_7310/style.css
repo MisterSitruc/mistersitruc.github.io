@@ -109,7 +109,7 @@ footer {
         padding: 50x;
         max-width: 100px;
         height: auto;
-        grid-column: col / span 1; 
+        grid-column: col; 
         grid-row: row 2;
 }
 
@@ -130,7 +130,7 @@ footer {
   }
 
 .video {
-    grid-column: col 2 / span 1;
+    grid-column: col 2;
     grid-row: row 5;
     max-width: 500px; 
     height: auto;
