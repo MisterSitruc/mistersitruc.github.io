@@ -107,6 +107,9 @@ footer {
     .aboutheadshot {
         grid-column: col / span 1; 
         grid-row: row 2;
+        margin: 100px;
+        width: 100;
+        height: 300;
     
 }
 
@@ -129,6 +132,7 @@ footer {
 .video {
     grid-column: col 2 / span 1;
     grid-row: row 5;
+    margin: 100px; 
 }
 
   .eo {
