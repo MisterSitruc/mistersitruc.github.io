@@ -81,6 +81,8 @@ footer {
   }
 
 .icon {
+    width: 30px;
+    height: 30px;
     transition: transform 1s;
 }
 
@@ -108,7 +110,7 @@ footer {
         margin-right: 50px;
         margin-left: 50px;
         margin-bottom: 25px;
-        padding: 50x;
+        padding: 50px;
         max-width: 65%;
         height: auto;
         grid-column: col; 
@@ -162,7 +164,7 @@ footer {
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 25px;
-    padding: 50x;
+    padding: 50px;
     max-width: 65%;
     height: auto;
     grid-column: col; 
@@ -184,7 +186,7 @@ footer {
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 25px;
-    padding: 50x;
+    padding: 50px;
     max-width: 65%;
     height: auto;
     grid-column: col; 
@@ -206,7 +208,7 @@ footer {
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 25px;
-    padding: 50x;
+    padding: 50px;
     max-width: 65%;
     height: auto;
     grid-column: col; 
