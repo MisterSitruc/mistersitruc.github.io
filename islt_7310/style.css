@@ -105,9 +105,9 @@ footer {
 /*About Grid*/
 
     .aboutheadshot {
-        margin: 100px;
-        padding: 100px;
-        max-width: 200px;
+        margin: 50px;
+        padding: 50x;
+        max-width: 100px;
         height: auto;
         grid-column: col / span 1; 
         grid-row: row 2;
@@ -134,8 +134,8 @@ footer {
     grid-row: row 5;
     max-width: 500px; 
     height: auto;
-    margin: 100px;
-    padding: 100px;
+    margin: 50px;
+    padding: 50px;
 }
 
   .eo {
