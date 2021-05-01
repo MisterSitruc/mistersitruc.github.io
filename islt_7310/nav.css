@@ -34,6 +34,10 @@
     
 }
 
+.navul > li > ul > li {
+    padding: 5px; 
+}
+
 .navul > li > ul > li > a {
     text-decoration: none;
     color: black;
