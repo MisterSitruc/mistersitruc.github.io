@@ -107,7 +107,7 @@ footer {
     .aboutheadshot {
         margin: 50px;
         padding: 50x;
-        max-width: 300px;
+        max-width: 500px;
         height: auto;
         grid-column: col; 
         grid-row: row 2;
