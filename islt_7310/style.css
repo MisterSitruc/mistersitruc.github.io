@@ -190,18 +190,20 @@ footer {
     max-width: 65%;
     height: auto;
     grid-column: col; 
-    grid-row: row 4;
+    grid-row: row 5;
 }
 
 .siftp {
     grid-column: col 2;
     grid-row: row 4;
+    
 }
 
 .sifttable {
-    grid-column: col 2;
-    grid-row: row 5;
+    grid-column: col 1;
+    grid-row: row 4;
     font-family: SpaceMono;
+    margin: 50px;
 }
 
 .sifttable tbody tr:nth-child(even) {
