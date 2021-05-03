@@ -198,9 +198,39 @@ footer {
     grid-row: row 4;
 }
 
+.sifttable {
+    grid-column: col 2;
+    grid-row: row 5;
+    font-family: SpaceMono;
+}
+
+.sifttable tbody tr:nth-child(even) {
+    background-color: #F5B261;
+}
+
+.sifttable tbody tr:nth-child(odd) {
+    background-color: #9CC3D9;
+}
+
+.sifttable thead {
+    background-color: #fff;
+}
+
+table, thead, th, td {
+     border: 1px solid black;
+}
+
+thead, td {
+    padding: 15px;
+}
+
+thead {
+    text-align: center;
+}
+
 .searchheading {
     grid-column: col;
-    grid-row: row 5;
+    grid-row: row 6;
     font-family: BioRhymeLight;
 }
 
@@ -212,12 +242,12 @@ footer {
     max-width: 65%;
     height: auto;
     grid-column: col; 
-    grid-row: row 6;
+    grid-row: row 7;
 }
 
 .searchp {
     grid-column: col 2;
-    grid-row: row 6;
+    grid-row: row 7;
 }
 
 .searchvid {
@@ -226,7 +256,7 @@ footer {
     margin: 50px;
     padding: 50px;
     grid-column: col;
-    grid-row: row 7;
+    grid-row: row 8;
 }
 
 /*Reflection Grid*/
@@ -246,6 +276,7 @@ footer {
 @media only screen and (max-width: 959px) {
      p {font-size: 1em;}
     ul {font-size: 1em;}
+    table {font-size: 1em;}
     blockquote {font-size: 1em;}
     h1 {font-size: 2em;}
     h2 {font-size: 1.75em}
@@ -257,6 +288,7 @@ footer {
 @media only screen and (max-width: 767px) {
     p {font-size: .75em;}
     ul {font-size: .75em;}
+    table {font-size: .75em;}
     blockquote {font-size: .75em;}
     h1 {font-size: 1.75em;}
     h2 {font-size: 1.5em;}
@@ -268,6 +300,7 @@ footer {
 @media only screen and (max-width: 500px) { 
     p {font-size: .5em;}
     ul {font-size: .5em;}
+    table {font-size: .5em;}
     blockquote {font-size: .5em;}
     h1 {font-size: 1.5em;}
     h2 {font-size: 1.25em;}
