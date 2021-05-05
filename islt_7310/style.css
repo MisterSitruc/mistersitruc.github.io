@@ -275,6 +275,14 @@ thead {
     grid-row: row 2;
 }
 
+/*Contact Grid*/
+
+.form {
+    text-align: center;
+    padding: 50px;
+    font-family: SpaceMono;
+}
+
 @media only screen and (max-width: 959px) {
      p {font-size: 1em;}
     ul {font-size: 1em;}
