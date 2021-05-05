@@ -287,6 +287,7 @@ thead {
      p {font-size: 1em;}
     ul {font-size: 1em;}
     table {font-size: 1em;}
+    form {font-size: 1em;}
     blockquote {font-size: 1em;}
     h1 {font-size: 2em;}
     h2 {font-size: 1.75em}
@@ -299,6 +300,7 @@ thead {
     p {font-size: .75em;}
     ul {font-size: .75em;}
     table {font-size: .75em;}
+    form {font-size: .75em;}
     blockquote {font-size: .75em;}
     h1 {font-size: 1.75em;}
     h2 {font-size: 1.5em;}
@@ -311,6 +313,7 @@ thead {
     p {font-size: .5em;}
     ul {font-size: .5em;}
     table {font-size: .5em;}
+    form {font-size: .5em;}
     blockquote {font-size: .5em;}
     h1 {font-size: 1.5em;}
     h2 {font-size: 1.25em;}
