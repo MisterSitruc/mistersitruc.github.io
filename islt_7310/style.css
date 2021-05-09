@@ -204,7 +204,8 @@ footer {
     grid-column: col 1;
     grid-row: row 4;
     font-family: SpaceMono;
-    margin: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .sifttable tbody tr:nth-child(even) {
