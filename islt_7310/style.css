@@ -120,6 +120,7 @@ footer {
     .aboutme {
     grid-column: col 2 / span 1 ;
     grid-row: row 2;
+    padding: 50px;
   }
 
  .amheading {
@@ -165,7 +166,7 @@ footer {
     margin-left: 50px;
     margin-bottom: 25px;
     padding: 50px;
-    max-width: 65%;
+    max-width: 55%;
     height: auto;
     grid-column: col; 
     grid-row: row 2;
@@ -187,7 +188,7 @@ footer {
     margin-left: 50px;
     margin-bottom: 25px;
     padding: 50px;
-    max-width: 65%;
+    max-width: 55%;
     height: auto;
     grid-column: col; 
     grid-row: row 5;
@@ -241,7 +242,7 @@ thead {
     margin-left: 50px;
     margin-bottom: 25px;
     padding: 50px;
-    max-width: 65%;
+    max-width: 55%;
     height: auto;
     grid-column: col; 
     grid-row: row 7;
