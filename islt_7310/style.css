@@ -277,6 +277,10 @@ thead {
     grid-row: row 2;
 }
 
+.resources li {
+    margin-bottom: 10px;
+}
+
 /*Contact Grid*/
 
 .form {
