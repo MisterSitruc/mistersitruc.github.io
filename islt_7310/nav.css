@@ -31,14 +31,12 @@
     list-style: none;
     display: none;
     position: absolute;
-    background-color: floralwhite;
-    opacity: .6;
-    
     
 }
 
 .navul > li > ul > li {
     padding: 5px; 
+    background-color: rgba(218, 223, 225, .4);
 }
 
 .navul > li > ul > li > a {
