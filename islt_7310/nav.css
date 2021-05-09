@@ -32,7 +32,8 @@
     display: none;
     position: absolute;
     background-color: floralwhite;
-    background: transparent; 
+    opacity: .6;
+    
     
 }
 
